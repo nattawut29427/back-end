@@ -2,7 +2,7 @@ import React from 'react'
 
 function myprofile() {
   return (
-    <div>myprofile</div>
+    <div className='text-center text-white'>My profile</div>
   )
 }
 

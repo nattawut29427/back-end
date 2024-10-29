@@ -12,10 +12,10 @@ export default async function Newspage() {
   return (
     <>
       <div className="m-auto text-center">
-        <div className="text-xl font-bold">หน้าข่าวใหม่</div>
+        <div className="text-xl font-bold text-white">หน้าข่าวใหม่</div>
 
         <div>
-          <ul className="z-10">
+          <ul className="z-10 text-white">
             {new_list.map((item) => (
               <li key={item.id}>
                 <Link href={`/news/${item.id}`}>{item.title}</Link>
